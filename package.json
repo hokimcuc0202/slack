@@ -1,0 +1,26 @@
+{
+  "name": "slackbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build/index.js",
+    "tsc": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@kintone/kintone-js-sdk": "^0.3.2",
+    "@slack/events-api": "^2.2.0",
+    "@slack/rtm-api": "^5.0.1",
+    "@slack/types": "^1.0.0",
+    "@slack/web-api": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "ngrok": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.0"
+  }
+}
